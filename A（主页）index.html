@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>三体</title>
+<!-- 引入bootstrap的css样式 --> 
+<link href="bootstrap.min.css" rel="stylesheet"> 
+<!-- 引入bootstrap插件需先引入jQuery插件 --> 
+<script src="jquery.min.js"></script>
+<!-- 引入boostrap的插件 --> 
+<script src="bootstrap.min.js"></script>
+
+<style type="text/css">
+<!--
+#container {
+	height: 800px;
+	width: auto;
+
+}
+#container #logo {
+	height: 30%;
+	width: 100%;
+	overflow: hidden;	
+}
+
+}
+#container #logo .nav nav-tabs {
+	background-color: #FF99CC;
+}
+#container #myCarousel {
+	height: 500px;
+	width: 700px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	bottom:40;
+}
+#container #picture {
+	height: 700px;
+	width: auto;
+	bottom: 95px;
+	position: relative;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-color: #FDFDFD;
+	background-image: url(%E5%9B%BE%E7%89%87%E7%B4%A0%E6%9D%90/timgmkl.gif);
+	overflow: hidden;	
+} 
+logo:hover {
+    transform: skew(3deg,2deg);
+
+	color: #CCCCCC;
+}
+@keyframes myfirst {
+ 0% {transform: rotateY(0deg); 
+ }
+ 50% {transform:rotateY(180deg); 
+ }
+100% {transform:rotateY(360deg); 
+ } 
+}
+#container #logo #lp {
+	animation : myfirst 5s linear  infinite alternate;
+	height: 100px;
+	width: 100px;
+}
+#container #picture #q1 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : yi 7s linear infinite alternate;
+
+}
+#container #picture #q2 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation :er 5s linear infinite alternate;
+
+}
+#container #picture #q3 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : san 8s linear infinite alternate;
+
+}
+#container #picture #q4 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : si 4s linear infinite alternate;
+
+}
+#container #picture #q5 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : wu 20s linear infinite alternate;
+
+}
+#container #picture #q6 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : liu 8s linear infinite alternate;
+
+}
+#container #picture #q7 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : qi 6s linear infinite alternate;
+
+}
+#container #picture #q8 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : ba 11s linear infinite alternate;
+
+}
+#container #picture #q9 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : jiu 15s linear infinite alternate;
+
+}
+#container #picture #q10 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : shi 3s linear infinite alternate;
+	position: relative;
+	bottom: 800px;
+	right: -100px;
+}
+#container #picture #q11 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : shiyi 6s linear infinite alternate;
+	bottom: 900px;
+	right: -1200px;
+	position: relative;
+}
+#container #picture #q12 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : shier 12s linear infinite alternate;
+	position: relative;
+	bottom: 1030px;
+	right: -1190px;
+
+}
+#container #picture #q13 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : shisan 3s linear infinite alternate;
+	bottom: 700px;
+	right: -200px;
+	position: relative;
+
+}
+#container #picture #q14 {
+	text-align: center;
+	
+	height: 50px;
+	width: 200px;
+	animation : shisi 9s linear infinite alternate;
+    bottom: 600px;
+	right: -1200px;
+	position: relative;
+}
+#container #picture #q15{
+	text-align: center;
+	
+	height: 100px;
+	width: 300px;
+	animation : shiwu 9s linear infinite alternate;
+    bottom: 1200px;
+	right: -100px;
+	position: relative;
+}
+@keyframes yi {
+ 0% {transform: translate(0px,-450px);
+}
+
+100% {transform: translate(0px,50px);
+}
+}
+@keyframes er {
+ 0% {transform: translate(1380px,-450px);
+}
+
+100% {transform: translate(1380px,200px);
+}
+}
+@keyframes san {
+ 0% {transform: translate(1150px,-450px);
+}
+
+100% {transform: translate(1350px,0px);
+}
+}
+@keyframes si {
+ 0% {transform: translate(100px,70px);
+}
+
+100% {transform: translate(0px,-620px);
+}
+}
+@keyframes wu {
+ 0% {transform: translate(1130px,0px);
+}
+
+100% {transform: translate(1130px,-720px);
+}
+}
+@keyframes liu {
+ 0% {transform: translate(1200px,0px);
+}
+
+100% {transform: translate(1200px,-700px);
+}
+}
+@keyframes qi {
+ 0% {transform: translate(200px,-200px);
+}
+50% {transform: translate(200px,-500px);
+}
+ 100% {transform: translate(200px,-770px);
+}
+}
+@keyframes ba {
+ 0% {transform: translate(0px,-650px);
+}
+
+100% {transform: translate(80px,-400px);
+}
+}
+@keyframes jiu {
+ 0% {transform: translate(1160px,-570px);
+}
+
+100% {transform: translate(1170px,-450px);
+}
+}
+@keyframes shi {
+ 0% {transform: scale(1); 
+}
+
+100% {transform: scale(2); 
+}
+}
+@keyframes shiyi {
+ 0% {transform: scale(1); 
+}
+
+100% {transform: scale(2); 
+}
+}
+@keyframes shier{
+ 0% {transform: scale(1); 
+}
+
+100% {transform: scale(0.5); 
+}
+}
+@keyframes shisan {
+ 0% {transform: scale(1); 
+}
+
+100% {transform: scale(0.7); 
+}
+}
+@keyframes shisi {
+ 0% {transform: scale(1); 
+}
+
+100% {transform: scale(2); 
+}
+}
+@keyframes shiwu {
+ 0% {transform: scale(1); 
+}
+
+100% {transform: scale(0.5); 
+}
+}
+
+
+
+
+
+
+-->
+</style>
+</head>
+
+<body>
+<script>
+alert("请老师务必使用火狐浏览器打开:-D");
+</script>
+
+<audio src="音频素材/银河纪元.mp3" autoplay=autoplay loop=loop ></audio>
+
+<div id="container">
+
+     <div id="logo">
+    <div id="lp"> <img src="图片素材/ziyang.jpg"  height="100" /></div>
+    	<ul class="nav nav-tabs">
+  <li class="active"><a href="#">首页</a></li>
+  <li><a href="书籍简介.html" target="_self">书籍简介</a></li>
+  <li><a href="作者简介.html" target="_self" >作者简介</a></li>
+  <li><a href="好句赏析.html" target="_self">好句赏析</a></li>
+ 
+</ul>
+     </div>
+     
+     
+     
+<div id="picture">    
+   <div id="myCarousel" class="carousel slide">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+         <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+           <li data-target="#myCarousel" data-slide-to="5"></li>
+           <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active"><img src="图片素材/5133ae1e-6061-42e1-925e-b60c34eab9a3.jpg" width="700" height="500"  ></div>
+        <div class="item"><img src="图片素材/u=126460355,2411943611&fm=214&gp=0.jpg" width="700" height="500"></div>
+        <div class="item"><img src="图片素材/8e8f908257bd51a725d6948ad361a701ef11a17b.jpg" width="700" height="500"></div>
+        <div class="item"><img src="图片素材/tZg_-fyfzhap4909174.jpg" width="700" height="500"></div>
+        <div class="item"><img src="图片素材/d158ccbf6c81800a00442f55b13533fa838b47c3.jpg"  width="700" height="500" ></div>
+          <div class="item"><img src="图片素材/。。。。。。.jpg" width="700" height="500" ></div>
+           <div class="item"><img src="图片素材/c64e3ad3d539b600fa098322ed50352ac45cb7e5.jpg" width="700" height="500" ></div>
+           <div class="item"><img src="图片素材/1444283315136634.jpg" width="700" height="500" ></div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel" 
+        data-slide="prev">&lsaquo;    </a>
+    <a class="carousel-control right" href="#myCarousel" 
+        data-slide="next">&rsaquo;    </a></div>
+        <div id="q1">
+        <font size="+2" face="方正兰亭超细黑简体">给时光以生命，给岁月以文明。</font>
+        </div>
+        <div id="q2">
+        <font size="+2" face="宋体">费米悖论</font>
+    </div>
+        <div id="q3">
+        <font  face="宋体">威慑是个舒服的摇篮，人类躺在里面，由大人变成了孩子。</font>
+        </div>
+        <div id="q4">
+        <font size="+2" face="楷体">无畏源于无知。</font>
+        </div>
+        <div id="q5">
+        <font size="+3" face="新宋体" color="#999999">虫子从来就没有真正被战胜过！</font>
+        </div>
+        <div id="q6">
+        <font size="+1.5" face="微软雅黑" color="#666666">生存本来就需要争取，什么时候成了理所当然？</font>
+        </div>
+        <div id="q7">
+        <font size="+2" face="方正兰亭超细黑简体">有两颗文明的流星划过，宇宙记住了它们的光芒。</font>
+        </div>
+        <div id="q8">
+        <font size="+3" face="Arial, Helvetica, sans-serif" color="#999999">自然选择号，前进四！</font>
+        </div>
+    <div id="q9">
+        <font size="+2" face="方正兰亭超细黑简体">我们都是阴沟里的虫子，但总还得有人仰望星空。</font>
+    </div>
+        <div id="q10">
+        <font size="+2" face="隶书" color="#999999">一切都将逝去，只有死神永生。      </div>
+        <div id="q11">
+        <font size="+2" face="隶书" color="#CCCCCC">弱小和无知，都不是生存的障碍，傲慢才是。</font>
+        </div>
+        <div id="q12">
+        <font size="+2" face="方正兰亭超细黑简体" color="#333333">在意义之塔上，生存高于一切</font>
+        </div>
+        <div id="q13">
+        <font size="+2" face="等线" color="#999999">大自然真是自然的吗？</font>
+        </div>
+        <div id="q14">
+        <font size="+2" face="方正兰亭超细黑简体">没有永远的敌人或朋友，只有永远的责任。</font>
+        </div>
+        <div id="q15">
+        <font size="+2" face="方正兰亭超细黑简体" color="#666666">失去人性，失去很多；失去兽性，失去一切 </font>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+     
+    
+     
+     
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
