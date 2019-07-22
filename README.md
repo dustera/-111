@@ -1,5 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -636,13 +634,11 @@ logo:hover {
 
 <script>
 
-alert("请老师务必使用火狐浏览器打开:-D");
+alert("建议使用火狐浏览器打开:-D");
 
 </script>
 
 
-
-<audio src="音频素材/银河纪元.mp3" autoplay=autoplay loop=loop ></audio>
 
 
 
